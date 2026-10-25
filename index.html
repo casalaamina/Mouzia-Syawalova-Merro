@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#0b1125" />
+    <title>For Mouzia — 25.10.2006</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=DM+Mono:wght@400;500&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="sky" aria-hidden="true">
+      <div class="stars stars-one"></div>
+      <div class="stars stars-two"></div>
+      <div class="nebula"></div>
+    </div>
+    <main>
+      <section class="intro" id="intro" aria-labelledby="intro-title">
+        <div class="intro-glow" aria-hidden="true"></div>
+        <div class="intro-copy">
+          <p class="eyebrow">a letter for Mouzia</p>
+          <p class="date">25.10.2006</p>
+          <h1 id="intro-title">
+            where time gave the world a soul,<br />and life began writing a
+            story<br />no one had ever read.
+          </h1>
+          <p class="subtitle">a little universe, a story still unfolding.</p>
+          <button class="enter" id="enter-letter" type="button">
+            open the letter <span aria-hidden="true">↓</span>
+          </button>
+        </div>
+        <p class="scroll-note">scroll gently</p>
+      </section>
+
+      <section
+        class="letter-area"
+        id="letter"
+        aria-label="A birthday letter for Mouzia"
+        tabindex="-1"
+      >
+        <div class="letter-top">
+          <p class="eyebrow">25 october, 2026</p>
+          <div class="tiny-orbit" aria-hidden="true"></div>
+          <p class="letter-mark">for Mouzia, with love</p>
+        </div>
+        <article class="letter-paper" id="letter-content" aria-live="polite">
+          <p class="loading">opening the pages…</p>
+        </article>
+      </section>
+
+      <section class="little-things" aria-labelledby="little-things-title">
+        <div class="section-intro">
+          <p class="eyebrow">a universe made of little things</p>
+          <h2 id="little-things-title">Some good things arrive quietly.</h2>
+          <p>Touch a point of light and let it join the constellation.</p>
+        </div>
+        <div
+          class="constellation"
+          id="constellation"
+          role="group"
+          aria-label="An interactive constellation of small hopes"
+        ></div>
+      </section>
+
+      <section class="closing" aria-labelledby="closing-title">
+        <div class="closing-glow" aria-hidden="true"></div>
+        <p class="eyebrow">and so it continues</p>
+        <h2 id="closing-title">
+          the story is still<br /><em>yours to write.</em>
+        </h2>
+        <p>happy birthday, Mouzia.</p>
+        <button class="back-top" type="button" id="back-top">
+          return to the stars ↑
+        </button>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
